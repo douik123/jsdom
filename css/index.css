@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+background-color:#ECF3FC;
+}
+#cadre
+{
+	box-shadow: 10px black;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); 
+    background-color: white;
+    border: none;
+  border-radius: 15px;
+
+}
+#flex
+{
+	display: flex;
+	flex-direction: column;
+	
+	justify-content: space-between;
+
+
+}
+#elemnta
+ {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	flex-direction: row;
+
+ }
+ #b
+ {
+ 	margin: 60px;
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+ #a
+ {
+ 	margin: 30px;
+ 	font-size: 20px;
+ }
+ .ml
+ {
+ 	font-size: 13px;
+ 	color: grey;
+ }
+ #remove
+ {
+ 	color: red;
+ }
+ #c 
+ {
+    margin: 20px;
+ }
+ #remove
+ {
+    font-size: 30px;
+ }
+ a:active
+ {
+    color: red;
+ }
+ a:visited {
+  color: red;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+ 
+
+  color: #fff;
+  background-color: #9CC4F4;
+  border: none;
+  border-radius: 15px;
+  
+}
+.line
+{
+border-top: 1px solid grey ;
+width: 300px;
+
+}
+#footer
+{
+   padding: 0px 20px 30px 0px;
+}
+.flex
+{
+   display: flex;
+   justify-content: flex-end;
+}
+.red
+{
+   color: red;
+}
+.total
+{
+   text-align: right;
+}
